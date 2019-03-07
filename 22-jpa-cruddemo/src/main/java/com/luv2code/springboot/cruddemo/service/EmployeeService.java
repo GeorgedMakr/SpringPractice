@@ -14,5 +14,5 @@ public interface EmployeeService {
 	
 	public void deleteById(int theId);
 	
-	public void diablo(Boolean lex);
+	
 }
