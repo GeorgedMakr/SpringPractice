@@ -15,16 +15,16 @@ public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="id")
+	@Column
 	private int id;
 	
-	@Column(name="first_name")
+	@Column
 	private String firstName;
 	
-	@Column(name="last_name")
+	@Column
 	private String lastName;
 	
-	@Column(name="email")
+	@Column
 	private String email;
 	
 		
